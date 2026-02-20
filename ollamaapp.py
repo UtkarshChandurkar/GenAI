@@ -13,7 +13,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 #streamlit framework
 st.title('Langchain Demo Chat App with gemma2:2b')
-input_text = st.text_input('Write our prompt: ')
+input_text = st.text_input('Write your prompt: ')
 
 #Ollama LLM Model
 llm = Ollama(model="gemma2:2b")
